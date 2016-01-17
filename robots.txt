@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /css
+Disallow: /font-awesome
+Disallow: /fonts
+Disallow: /icons
+Disallow: /img
+Disallow: /js
+Disallow: /CNAME
+Disallow: /css/*
+Disallow: /font-awesome/*
+Disallow: /fonts/*
+Disallow: /icons/*
+Disallow: /img/*
+Disallow: /js/*

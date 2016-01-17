@@ -1,0 +1,270 @@
+/* comments */
+
+/*
+the green    #AFD13F
+the purple   #9E55A4
+the pink     #E0436F
+*/
+
+/* Gotta learn to add better notes -- c-hicks */
+
+body{
+  /*margin-top: 50px;*/
+  font-family: "Open Sans",sans-serif;
+color: #1F1F26;
+font-size: 16px;
+font-weight: 500;
+}
+
+.thegreen{
+  color: #AFD13F !important;
+}
+
+.thepurple{
+  color: #9E55A4 !important;
+}
+
+.thepink{
+  color: #E0436F !important;
+}
+
+.dlinker {
+  color: #000;  text-shadow: 0px 0px 1px #222;;
+}
+
+/* mouse over link */
+.dlinker:hover {
+	color: #E0436F;
+}
+
+/* selected link */
+.dlinker:active {
+	color: #9E55A4;
+}
+
+.dlinker2 {
+  color: #677a1f;  text-shadow: 0px 0px 1px #222;;
+}
+
+/* mouse over link */
+.dlinker2:hover {
+	color: #AFD13F;
+}
+
+/* selected link */
+.dlinker2:active {
+	color: #9E55A4;
+}
+
+.dlinker3 {
+  color: #ae1e45;  text-shadow: 0px 0px 1px #222;;
+}
+
+/* mouse over link */
+.dlinker3:hover {
+	color: #9E55A4;
+}
+
+/* selected link */
+.dlinker3:active {
+	color: #E0436F;
+}
+
+.dimm{
+    color: #595959;
+}
+
+/* mouse over link */
+.dimm:hover {
+	color: #9E55A4;
+}
+
+/* selected link */
+.dimm:active {
+	color: #E0436F;
+}
+
+.socialm{
+    color: #999999;
+}
+
+/* mouse over link */
+.socialm:hover {
+	color:  #9E55A4;
+}
+
+/* selected link */
+.socialm:active {
+	color: #E0436F;
+}
+
+ul.nav a:hover { color: #AFD13F !important; }
+ul.nav a:active { color: #9E55A4 !important; }
+
+h1, h2, h3, {
+    font-family: "Libre Baskerville",serif;
+    color: #1F1F26;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+h4, h5, h6 {
+    font-family: "Libre Baskerville",serif;
+    color: #1F1F26;
+    font-weight: 400;
+}
+
+.jumbotron {
+    background-color:transparent !important;
+}
+
+.btn-custom {
+  background:none;
+  border-color: #000;
+}
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active {
+  background:none;
+  border-color: #fff;
+}
+.btn-custom.disabled:hover,
+.btn-custom.disabled:focus,
+.btn-custom.disabled:active,
+.btn-custom.disabled.active,
+.btn-custom[disabled]:hover,
+.btn-custom[disabled]:focus,
+.btn-custom[disabled]:active,
+.btn-custom[disabled].active,
+fieldset[disabled] .btn-custom:hover,
+fieldset[disabled] .btn-custom:focus,
+fieldset[disabled] .btn-custom:active,
+fieldset[disabled] .btn-custom.active {
+  background-color: #29cc00;
+  border-color: #29cc00;
+}
+
+/*Collapse Navbar at right moment*/
+
+    @media (min-width: 768px) {
+        .navbar-header {
+            float: none; }
+        .navbar-toggle {
+            display: block; }
+        .navbar-fixed-top .navbar-collapse,
+        .navbar-static-top .navbar-collapse,
+        .navbar-fixed-bottom .navbar-collapse {
+            padding-right: 15px;
+            padding-left: 15px; }
+        .navbar-collapse.collapse {
+            display: none !important; }
+            .navbar-collapse.collapse.in {
+            display: block!important;
+            margin-top: 0px; }
+    }
+    @media (min-width: 995px) {
+        .navbar-header {
+            float: left; }
+        .navbar-toggle {
+        display: none; }
+        .navbar-fixed-top .navbar-collapse,
+        .navbar-static-top .navbar-collapse,
+        .navbar-fixed-bottom .navbar-collapse {
+            display: block !important; }
+    }
+
+#nourishmii-brand{
+  height:43px;
+  /*width:100px;*/
+}
+
+#hounded{
+  font-family: 'Libre Baskerville', serif;
+}
+
+#superfly {
+    padding-top: 10px;
+}
+
+#branded {
+    height: 40px;
+    margin-top: 8px;
+}
+
+#nofly {
+    padding-top: 50px;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.polaroid {
+  /*  max-width: 25.64%; */
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 15px;
+}
+
+.polariod-container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav > li > a{
+  color: #dcebad;
+  font-weight: 600;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #dcebad;
+}
+
+.navbar-inverse .navbar-collapse{
+  border-color: transparent;
+}
+
+.navbar-transparent{
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle{
+  border-color: transparent;
+}
+
+.navbar-transparent .navbar-brand{
+  color: #333;
+  border-color: rgba(255, 0, 0, 0.4);
+}
+
+.navbar-transparent .navbar-nav>li>a{
+  color: #333;
+}
+
+.navbar-brand{
+  padding:0;
+  padding-left: 4px;
+}
+
+.navbar-static-bottom {
+  color: #dcebad;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.bordered {
+	margin-top:10px;
+	border: #cdcdcd medium solid;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}

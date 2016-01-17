@@ -1,0 +1,157 @@
+
+/* C-Hicks */
+/* Slider Customisation */
+
+/*
+the green    #AFD13F
+the purple   #9E55A4
+the pink     #E0436F
+*/
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    margin-bottom: 70px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+/* Carousel fix - responsive height (note: must use 100vh for height or FF won't display right)*/
+
+.carousel-inner > .item > img{
+ height:auto!important;
+ position:relative!important;
+ }
+
+ .carousel .item{
+ overflow:hidden!important;
+ height:auto;
+ }
+
+ .carousel-inner {
+ position: relative;
+ width: 100%;
+ overflow: hidden;
+ }
+
+/* Carousel Control */
+
+.carousel-control {
+position: absolute;
+top: 50%; /* pushes the icon in the middle of the height */
+z-index: 5;
+display: inline-block;
+}
+
+.carousel-control.left, .carousel-control.right {
+	background: none;
+	border: none;
+}
+
+.carousel-control.left {
+  color: #fff;
+}
+
+.carousel-control.right {
+  color: #fff;
+
+}
+
+/* Transparent Panels */
+
+.panel {
+    background-color: rgba(255, 255, 255, 0.92);
+}
+
+/* Image Caption */
+
+.image-overlay {
+    position:relative;
+}
+.image-overlay img {
+    width: 100%;
+    vertical-align:top;
+}
+.image-overlay:after, .image-overlay:before {
+    position:absolute;
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.image-overlay:after {
+    content:'\A';
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+}
+
+.image-overlay:before {
+    content: attr(data-content);
+    width:100%;
+    color:#fff;
+    z-index:1;
+    font-size: 22px;
+    font-weight: 500;
+    text-align:center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.image-overlay:hover:after, .image-overlay:hover:before {
+    opacity:1;
+}
+
+/* End Image Caption */
+
+/* Fancy Down Arrows */
+
+.s1arrow {
+  color: #fff;  text-shadow: 0px 0px 1px #222;;
+}
+
+/* mouse over link */
+.s1arrow:hover {
+	color: #E0436F;
+}
+
+/* selected link */
+.s1arrow:active {
+	color: #9E55A4;
+}
+
+
+.s2arrow {
+  color: #fff;  text-shadow: 0px 0px 1px #222;;
+}
+
+/* mouse over link */
+.s2arrow:hover {
+	color: #AFD13F;
+}
+
+/* selected link */
+.s2arrow:active {
+	color: #677a1f;
+}
+
+
+.s3arrow {
+  color: #fff;  text-shadow: 0px 0px 1px #222;;
+}
+
+/* mouse over link */
+.s3arrow:hover {
+	color: #9E55A4;
+}
+
+/* selected link */
+.s3arrow:active {
+	color: #E0436F;
+}
+/* End Fancy Down Arrows */
