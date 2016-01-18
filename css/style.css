@@ -181,14 +181,14 @@ fieldset[disabled] .btn-custom.active {
     /* Fix for Navbar issue on small phone in landscape mode */
     .navbar-collapse { max-height: 100% !important;
     }
-    /*
+
     @media (max-device-width: 480px) and (orientation: landscape) {
       .navbar-fixed-top .navbar-collapse,
       .navbar-fixed-bottom .navbar-collapse {
-        max-height: 340px!important;
+        max-height: 130px!important;
       }
     }
-    */
+
 
     /* Was lazy with my notes after this */
 
