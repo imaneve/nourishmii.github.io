@@ -10,3 +10,12 @@ body {
 .panel {
     background-color: rgba(255, 255, 255, 0.92);
 }
+
+
+/* Get rid of bottom navbar on landscape mobile phones */
+@media (max-height: 320px) and (orientation: landscape) {
+
+.navbar-fixed-bottom {
+   display: none;
+ }
+}

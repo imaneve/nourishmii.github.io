@@ -10,7 +10,7 @@ the pink     #E0436F
 
 body{
   /*margin-top: 50px;*/
-  font-family: "Open Sans",sans-serif;
+font-family: "Open Sans",sans-serif;
 color: #1F1F26;
 font-size: 16px;
 font-weight: 500;
@@ -179,18 +179,18 @@ fieldset[disabled] .btn-custom.active {
     }
 
     /* Fix for Navbar issue on small phone in landscape mode */
-    .navbar-collapse { max-height: 100% !important;
-    }
+    /*.navbar-collapse { max-height: 100% !important;
+    }*/
 
     @media (max-device-width: 480px) and (orientation: landscape) {
       .navbar-fixed-top .navbar-collapse,
       .navbar-fixed-bottom .navbar-collapse {
-        max-height: 130px!important;
+        max-height: 130px;
+        overflow: scroll;
       }
     }
 
-
-    /* Was lazy with my notes after this */
+    /* Where are my notes after this */
 
 #nourishmii-brand{
   height:43px;
