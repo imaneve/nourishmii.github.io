@@ -163,6 +163,9 @@ fieldset[disabled] .btn-custom.active {
             display: block!important;
             margin-top: 0px; }
     }
+
+
+
     @media (min-width: 995px) {
         .navbar-header {
             float: left; }
@@ -172,11 +175,25 @@ fieldset[disabled] .btn-custom.active {
         .navbar-static-top .navbar-collapse,
         .navbar-fixed-bottom .navbar-collapse {
             display: block !important; }
+
     }
+
+    /* Fix for Navbar issue on small phone in landscape mode */
+    .navbar-collapse { max-height: 100% !important;
+    }
+    /*
+    @media (max-device-width: 480px) and (orientation: landscape) {
+      .navbar-fixed-top .navbar-collapse,
+      .navbar-fixed-bottom .navbar-collapse {
+        max-height: 340px!important;
+      }
+    }
+    */
+
+    /* Was lazy with my notes after this */
 
 #nourishmii-brand{
   height:43px;
-  /*width:100px;*/
 }
 
 #hounded{
@@ -202,7 +219,6 @@ fieldset[disabled] .btn-custom.active {
 }
 
 .polaroid {
-  /*  max-width: 25.64%; */
   background-color: #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 15px;
