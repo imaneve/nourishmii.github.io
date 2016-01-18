@@ -70,9 +70,11 @@ display: inline-block;
 
 .image-overlay {
     position:relative;
+    height: auto;
 }
 .image-overlay img {
     width: 100%;
+    height: auto;
     vertical-align:top;
 }
 .image-overlay:after, .image-overlay:before {
