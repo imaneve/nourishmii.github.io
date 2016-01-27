@@ -101,7 +101,7 @@ font-weight: 500;
 ul.nav a:hover { color: #AFD13F !important; }
 ul.nav a:active { color: #9E55A4 !important; }
 
-h1, h2, h3, {
+h1, h2, h3 {
     font-family: "Libre Baskerville",serif;
     color: #1F1F26;
     font-size: 2em;
@@ -281,6 +281,4 @@ fieldset[disabled] .btn-custom.active {
 	margin-top:10px;
 	border: #cdcdcd medium solid;
 	border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
 }
