@@ -12,6 +12,37 @@ body {
     border-radius: 15px;
 }
 
+.tumblr_posts {
+text-align: center;
+list-style-type: none;
+}
+.tumblr_post {
+text-align: center;
+font-size: 1.5em;
+}
+.tumblr_title {
+text-align: center;
+}
+.tumblr_body img {
+text-align: center;
+font-size:16px;
+}
+.read_more_container {
+text-align: center;
+}
+.read_more_container a {
+text-align: center;
+}
+
+.tumblr_quote {
+text-align: center;
+}
+.tumblr_quote p {
+text-align: center;
+}
+.tumblr_source {
+text-align: center;
+}
 
 /* Get rid of bottom navbar on landscape mobile phones */
 @media (max-height: 320px) and (orientation: landscape) {
